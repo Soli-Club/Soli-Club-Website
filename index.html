@@ -1,1 +1,113 @@
-teeeeeeeeeeeeeeeeeeeeeeeest
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soliclub</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #f7f1df;
+        --muted: #b6ad96;
+        --floor: #101114;
+        --pulse: #ff4f7b;
+        --signal: #22d3ee;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 20% 30%, rgba(255, 79, 123, 0.22), transparent 28rem),
+          radial-gradient(circle at 80% 70%, rgba(34, 211, 238, 0.16), transparent 24rem),
+          linear-gradient(135deg, #0c0c0f 0%, var(--floor) 45%, #17120f 100%);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(42rem, calc(100vw - 2rem));
+        padding: 2rem 0;
+      }
+
+      .mark {
+        width: 4.5rem;
+        aspect-ratio: 1;
+        border: 1px solid rgba(247, 241, 223, 0.24);
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin-bottom: 2.5rem;
+        position: relative;
+      }
+
+      .mark::before,
+      .mark::after {
+        content: "";
+        position: absolute;
+        inset: 1.05rem;
+        border-radius: 50%;
+        border: 0.2rem solid var(--pulse);
+      }
+
+      .mark::after {
+        width: 0.55rem;
+        height: 0.55rem;
+        inset: auto;
+        background: var(--signal);
+        border: 0;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        line-height: 1.7;
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        max-width: 12ch;
+        font-size: clamp(4rem, 16vw, 9rem);
+        line-height: 0.9;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .status {
+        margin-top: 2.5rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.7rem;
+        color: var(--ink);
+        font-size: 0.82rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .status::before {
+        content: "";
+        width: 0.55rem;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background: var(--pulse);
+        box-shadow: 0 0 1.5rem var(--pulse);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark" aria-hidden="true"></div>
+      <h1>Soliclub</h1>
+      <p>DJ collective. Site warming up.</p>
+      <div class="status">Temporary test page</div>
+    </main>
+  </body>
+</html>
