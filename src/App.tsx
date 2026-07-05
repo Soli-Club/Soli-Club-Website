@@ -7,8 +7,14 @@ import { ContactPage } from './pages/ContactPage'
 import { EventsPage } from './pages/EventsPage'
 import { FeedbackPage } from './pages/FeedbackPage'
 import { HomePage } from './pages/HomePage'
+import { MaintenancePage } from './pages/MaintenancePage'
+import { isMaintenanceMode } from './config/siteMode'
 
 function App() {
+  if (isMaintenanceMode) {
+    return <MaintenancePage />
+  }
+
   return (
     <Routes>
       <Route element={<Layout />}>

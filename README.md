@@ -30,6 +30,7 @@ Fill in:
 ```bash
 VITE_SUPABASE_URL=
 VITE_SUPABASE_ANON_KEY=
+VITE_SITE_MODE=
 ```
 
 Run the dev server:
@@ -58,6 +59,19 @@ Public forms insert directly from the browser using the anon key:
 - `feedback`
 
 RLS must allow public inserts on those tables and block public reads. Admin-only reads, updates, and deletes should require authenticated users.
+
+## Vercel Deployment Mode
+
+Use `VITE_SITE_MODE=maintenance` on the Production environment if you want `soliclub.fi` to show the maintenance page.
+
+Use `VITE_SITE_MODE=live` on the Preview environment so the work-in-progress site stays visible there.
+
+Suggested Vercel setup:
+
+- `Production` environment for `main`
+- `Preview` environment for your preview branch
+- `soliclub.fi` attached to Production
+- `preview.soliclub.fi` attached to Preview if you want a dedicated preview domain
 
 ## Demo Content
 
