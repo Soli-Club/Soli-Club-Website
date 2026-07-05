@@ -51,14 +51,14 @@ export function AboutPage() {
         </div>
       </section>
 
-      <section className="section-band">
+      <section className="section-band" id="members">
         <div className="section-heading">
           <p className="eyebrow">Roster</p>
           <h2>The tracklist rail pulls from this same member data.</h2>
         </div>
         <div className="roster-grid">
           {members.map((member) => (
-            <MemberCard key={member.id} member={member} />
+            <MemberCard key={member.id} member={member} variant="about" />
           ))}
         </div>
       </section>

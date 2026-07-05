@@ -1,6 +1,7 @@
 import { Pause, Play } from 'lucide-react'
 import type { CSSProperties } from 'react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { members } from '../data/site'
 
 export function DjBoothPreview() {
@@ -48,8 +49,14 @@ export function DjBoothPreview() {
         <div className="member-now">
           <p className="eyebrow">Now loaded</p>
           <h2>{activeMember.name}</h2>
-          <p>{activeMember.aboutMe}</p>
-          <span>{activeMember.songLabel}</span>
+          <p> About: {activeMember.aboutMe}</p>
+          <br />
+          <p className="eyebrow">
+            Current Song of the moment: {activeMember.songLabel}
+          </p>
+          <Link className="more-info-button" to="/about#members">
+            More about the members
+          </Link>
         </div>
 
         <div className="track-rail" aria-label="Member tracklist">
