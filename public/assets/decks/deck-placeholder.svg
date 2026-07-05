@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-label="Pixel DJ decks placeholder">
+  <rect width="560" height="220" fill="none"/>
+  <rect x="28" y="66" width="504" height="112" rx="8" fill="#0B1030" stroke="#C9D4FF" stroke-width="4"/>
+  <rect x="54" y="92" width="126" height="58" rx="4" fill="#1B2360" stroke="#6FE1FF" stroke-width="3"/>
+  <rect x="380" y="92" width="126" height="58" rx="4" fill="#1B2360" stroke="#FF6FB0" stroke-width="3"/>
+  <rect x="216" y="88" width="128" height="72" rx="4" fill="#11184A" stroke="#FFF3D6" stroke-width="3"/>
+  <rect x="238" y="108" width="18" height="34" fill="#FFD36F"/>
+  <rect x="272" y="100" width="18" height="50" fill="#6FFFC8"/>
+  <rect x="306" y="116" width="18" height="26" fill="#B79CFF"/>
+  <rect x="74" y="162" width="412" height="8" fill="#8C9CFF" opacity="0.72"/>
+</svg>

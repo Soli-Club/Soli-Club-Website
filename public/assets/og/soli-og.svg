@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Soli Club night sky poster placeholder">
+  <rect width="1200" height="630" fill="#0B1030"/>
+  <circle cx="960" cy="142" r="78" fill="#FFF3D6"/>
+  <g fill="#C9D4FF">
+    <rect x="108" y="96" width="8" height="8"/>
+    <rect x="226" y="180" width="10" height="10"/>
+    <rect x="516" y="86" width="8" height="8"/>
+    <rect x="760" y="230" width="10" height="10"/>
+    <rect x="1044" y="332" width="8" height="8"/>
+  </g>
+  <rect x="120" y="410" width="960" height="20" fill="#1B2360"/>
+  <rect x="168" y="360" width="864" height="64" fill="#1B2360"/>
+  <rect x="244" y="284" width="208" height="74" fill="#FF6FB0"/>
+  <rect x="492" y="248" width="216" height="110" fill="#6FE1FF"/>
+  <rect x="748" y="284" width="208" height="74" fill="#B79CFF"/>
+  <text x="120" y="185" fill="#FFF3D6" font-family="Arial, sans-serif" font-size="96" font-weight="700">Soli Club</text>
+  <text x="126" y="252" fill="#C9D4FF" font-family="Arial, sans-serif" font-size="34">Helsinki KPOP club nights</text>
+</svg>

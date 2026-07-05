@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="Pixel moon placeholder">
+  <rect width="180" height="180" fill="none"/>
+  <rect x="48" y="24" width="84" height="12" fill="#FFF3D6"/>
+  <rect x="36" y="36" width="108" height="12" fill="#FFF3D6"/>
+  <rect x="24" y="48" width="120" height="84" fill="#FFF3D6"/>
+  <rect x="36" y="132" width="96" height="12" fill="#FFF3D6"/>
+  <rect x="60" y="144" width="60" height="12" fill="#FFF3D6"/>
+  <rect x="108" y="48" width="24" height="12" fill="#FFE3A6"/>
+  <rect x="120" y="60" width="12" height="36" fill="#FFE3A6"/>
+  <rect x="72" y="72" width="12" height="12" fill="#EAD59E"/>
+  <rect x="96" y="108" width="24" height="12" fill="#EAD59E"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120" role="img" aria-label="Pixel cloud placeholder">
+  <rect width="360" height="120" fill="none"/>
+  <rect x="48" y="60" width="240" height="24" fill="#C9D4FF" opacity="0.72"/>
+  <rect x="84" y="36" width="156" height="24" fill="#DDE5FF" opacity="0.82"/>
+  <rect x="132" y="18" width="72" height="24" fill="#FFF3D6" opacity="0.62"/>
+  <rect x="24" y="72" width="288" height="24" fill="#8C9CFF" opacity="0.28"/>
+  <rect x="312" y="84" width="24" height="12" fill="#C9D4FF" opacity="0.58"/>
+</svg>
