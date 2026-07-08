@@ -24,7 +24,7 @@ export function DjBoothPreview() {
 
       <div className="booth-scene" aria-label="Soli Club DJ booth">
         <button className="mascot-button" type="button" onClick={selectNextMember}>
-          <img src="/assets/mascot/bitmap.png" alt="Pixel mascot at the DJ booth" />
+          <img src="/assets/mascot/bearheadphones.webp" alt="Pixel mascot at the DJ booth" />
           <span>Next member</span>
         </button>
 
@@ -51,9 +51,10 @@ export function DjBoothPreview() {
           <h2>{activeMember.name}</h2>
           <p> About: {activeMember.aboutMe}</p>
           <br />
-          <p className="eyebrow">
-            Current Song of the moment: {activeMember.songLabel}
-          </p>
+          <div className="current-song">
+            <p className="eyebrow">Current song of the moment</p>
+            <p>{activeMember.songLabel}</p>
+          </div>
           <Link className="more-info-button" to="/about#members">
             More about the members
           </Link>

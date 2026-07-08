@@ -32,9 +32,8 @@ export function MemberCard({ member, variant = 'compact' }: MemberCardProps) {
         <p className="member-role">{member.role}</p>
         <h2>{member.name}</h2>
         <p>{member.aboutMe}</p>
-        {isAbout ? <p className="member-specialty"> Specialty: {member.specialty}</p> : null}
+        {isAbout ? <p className="member-specialty">Specialty: {member.specialty}</p> : null}
         <span>{isAbout ? member.personalityType : member.songLabel}</span>
-
       </div>
     </article>
   )

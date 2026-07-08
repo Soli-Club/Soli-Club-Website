@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--sky-deep);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  margin: 0;
+  color: var(--moon-glow);
+  background: var(--sky-deep);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-body);
+  letter-spacing: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: clamp(3.2rem, 12vw, 7.8rem);
+  line-height: 0.88;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  line-height: 0.98;
+}
+
+p {
+  color: var(--ink-muted);
+  line-height: 1.65;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  color: var(--moon-glow);
+  background: rgba(11, 16, 48, 0.72);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  outline: 0;
+  padding: 0.85rem 0.95rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--star);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: var(--sky-deep);
+  background: var(--moon-glow);
+}
+
+#root {
+  min-height: 100svh;
+}

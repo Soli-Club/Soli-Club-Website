@@ -1,0 +1,140 @@
+@media (max-width: 960px) {
+  .site-header {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .site-logo {
+    width: auto;
+  }
+
+  .site-logo img {
+    height: clamp(2.8rem, 9vw, 3.7rem);
+    max-width: min(11.5rem, 48vw);
+  }
+
+  .desktop-nav,
+  .header-socials {
+    display: none;
+  }
+
+  .menu-button {
+    display: grid;
+  }
+
+  .mobile-menu {
+    position: sticky;
+    top: var(--header-height);
+    z-index: 18;
+    display: grid;
+    gap: 1rem;
+    width: min(1180px, calc(100% - 2rem));
+    max-height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    background: rgba(11, 16, 48, 0.92);
+    border: 0 solid var(--panel-border);
+    border-radius: 8px;
+    backdrop-filter: blur(16px);
+    transition:
+      max-height 220ms ease,
+      border-width 220ms ease,
+      padding 220ms ease;
+  }
+
+  .mobile-menu.is-open {
+    max-height: 520px;
+    border-width: 1px;
+    padding: 1rem;
+  }
+
+  .mobile-menu nav {
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .dj-booth {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'copy'
+      'scene'
+      'tracks';
+  }
+
+  .booth-copy {
+    max-width: 720px;
+  }
+
+  .track-panel,
+  .content-grid,
+  .form-layout,
+  .section-heading {
+    grid-template-columns: 1fr;
+  }
+
+  .roster-grid,
+  .event-list-compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  :root {
+    --header-height: 74px;
+  }
+
+  .site-header,
+  .site-main,
+  .site-footer,
+  .mobile-menu {
+    width: min(100% - 1rem, 1180px);
+  }
+
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .booth-scene {
+    min-height: 390px;
+  }
+
+  .track-rail {
+    display: flex;
+    padding-bottom: 0.4rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .track-line {
+    min-width: 250px;
+    grid-template-columns: auto 1fr;
+    scroll-snap-align: start;
+  }
+
+  .track-line em {
+    grid-column: 2;
+  }
+
+  .roster-grid,
+  .event-list-compact,
+  .event-card,
+  .soli-form {
+    grid-template-columns: 1fr;
+  }
+
+  .event-meta {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

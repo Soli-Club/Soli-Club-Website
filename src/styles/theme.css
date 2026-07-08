@@ -1,0 +1,30 @@
+@theme {
+  --font-display: 'Pixelify Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-utility: 'Space Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+  --color-sky-deep: #0b1030;
+  --color-sky-mid: #1b2360;
+  --color-moon-glow: #fff3d6;
+  --color-star: #c9d4ff;
+}
+
+:root {
+  --sky-deep: #0b1030;
+  --sky-mid: #1b2360;
+  --moon-glow: #fff3d6;
+  --star: #c9d4ff;
+  --ink-muted: #b9c3ef;
+  --ink-soft: #e3e8ff;
+  --panel: rgba(27, 35, 96, 0.78);
+  --panel-strong: rgba(14, 20, 61, 0.9);
+  --panel-border: rgba(201, 212, 255, 0.2);
+  --shadow-glow: 0 0 42px rgba(111, 225, 255, 0.18);
+  --header-height: 84px;
+  font-family: var(--font-body);
+  color: var(--moon-glow);
+  background: var(--sky-deep);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

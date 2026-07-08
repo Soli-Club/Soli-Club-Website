@@ -12,11 +12,8 @@ export function Layout() {
     <div className="site-shell">
       <NightSky />
       <header className="site-header">
-        <NavLink className="wordmark" to="/" onClick={() => setIsOpen(false)}>
-          <span className="wordmark-mark" aria-hidden="true">
-            SOLI
-          </span>
-          <span className="wordmark-copy">Soli Club</span>
+        <NavLink className="site-logo" to="/" aria-label="Soli Club home" onClick={() => setIsOpen(false)}>
+          <img src="/assets/logo/solilogo.svg" alt="Soli Club" />
         </NavLink>
 
         <nav className="desktop-nav" aria-label="Main navigation">

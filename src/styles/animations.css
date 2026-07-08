@@ -1,0 +1,29 @@
+@keyframes twinkle {
+  50% {
+    opacity: 0.38;
+  }
+}
+
+@keyframes moonPulse {
+  50% {
+    filter: drop-shadow(0 0 48px rgba(255, 243, 214, 0.62));
+  }
+}
+
+@keyframes cloudDrift {
+  50% {
+    transform: translateX(4rem);
+  }
+}
+
+@keyframes mascotBop {
+  50% {
+    transform: translateY(0.35rem);
+  }
+}
+
+@keyframes spinRecord {
+  to {
+    transform: rotate(1turn);
+  }
+}

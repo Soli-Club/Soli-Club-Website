@@ -94,7 +94,7 @@ export const members: Member[] = [
     accentColor: '#FF6FB0',
     spotifyUri: 'spotify:track:4LRPiXqCikLlN15c3yImP7',
     songLabel: "Bts shit song",
-    photoUrl: 'https://ygsleyvmmvhydyfzkyiu.supabase.co/storage/v1/object/sign/Members/test.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zYmNlN2JkZS0wZDUwLTQ1NWYtODVhOC00YWZkNzI2ODM3OTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNZW1iZXJzL3Rlc3QucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MzI4MzcwMSwiZXhwIjoxODE0ODE5NzAxfQ.wrNjG9CScbftyB7YL5EfMnO0u4YyyzykAYBB_N4QCgY',
+    photoUrl: 'https://ygsleyvmmvhydyfzkyiu.supabase.co/storage/v1/object/sign/Members/vivi.JPG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zYmNlN2JkZS0wZDUwLTQ1NWYtODVhOC00YWZkNzI2ODM3OTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNZW1iZXJzL3ZpdmkuSlBHIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MzUyMjAzNSwiZXhwIjoxODE1MDU4MDM1fQ.sshcEflypeJ6esyyplaCpSy7oeyTGlYXQc5WI8vHUKw',
     displayOrder: 1,
   },
   {
@@ -107,6 +107,7 @@ export const members: Member[] = [
     accentColor: '#B79CFF',
     spotifyUri: 'spotify:track:0V3wPSX9ygBnCm8psDIegu',
     songLabel: 'Twice Fancy',
+    photoUrl: 'https://ygsleyvmmvhydyfzkyiu.supabase.co/storage/v1/object/sign/Members/mimi.JPG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zYmNlN2JkZS0wZDUwLTQ1NWYtODVhOC00YWZkNzI2ODM3OTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNZW1iZXJzL21pbWkuSlBHIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MzUyMjE5OSwiZXhwIjoxODE1MDU4MTk5fQ.mbq-dIbkxoKEPR8BFPYw6gKhZZT9w16pt-ThJSYfzcU',
     displayOrder: 2,
   },
 
@@ -120,6 +121,7 @@ export const members: Member[] = [
     accentColor: '#FFD36F',
     spotifyUri: 'spotify:track:1Je1IMUlBXcx1Fz0WE7oPT',
     songLabel: 'Le sserafim something',
+    photoUrl: 'https://ygsleyvmmvhydyfzkyiu.supabase.co/storage/v1/object/sign/Members/tami.JPG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zYmNlN2JkZS0wZDUwLTQ1NWYtODVhOC00YWZkNzI2ODM3OTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNZW1iZXJzL3RhbWkuSlBHIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MzUyMjI2MiwiZXhwIjoxODE1MDU4MjYyfQ.zltv6QrPv6u6nHnl058lflWFOqp0V_8TqCBy3nAT5kg',
     displayOrder: 3,
   },
   {
@@ -132,6 +134,7 @@ export const members: Member[] = [
     accentColor: '#FF8F70',
     spotifyUri: 'spotify:track:6I3mqTwhRpn34SLVafSH7G',
     songLabel: 'mr taxi girls generator',
+    photoUrl: 'https://ygsleyvmmvhydyfzkyiu.supabase.co/storage/v1/object/sign/Members/lana.JPG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zYmNlN2JkZS0wZDUwLTQ1NWYtODVhOC00YWZkNzI2ODM3OTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNZW1iZXJzL2xhbmEuSlBHIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MzUyMjM5NywiZXhwIjoxODE1MDU4Mzk3fQ.2_zK1ihYoVuR_4JZWSvjMsSUFfImK16OJibaCstZx-s',
     displayOrder: 4,
   },
   {
@@ -144,6 +147,7 @@ export const members: Member[] = [
     accentColor: '#6FE1FF',
     spotifyUri: 'spotify:track:2HRqTpkrJO5ggZyyK6NPWz',
     songLabel: 'Gee gee snsd',
+    photoUrl: 'https://ygsleyvmmvhydyfzkyiu.supabase.co/storage/v1/object/sign/Members/jess.JPG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zYmNlN2JkZS0wZDUwLTQ1NWYtODVhOC00YWZkNzI2ODM3OTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNZW1iZXJzL2plc3MuSlBHIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MzUyMjMyMywiZXhwIjoxODE1MDU4MzIzfQ.28lfRcliw--J4F6qAy3J9fTiua1AdaLR0V_JK7SF_Ec',
     displayOrder: 5,
   },
   {
@@ -156,6 +160,7 @@ export const members: Member[] = [
     accentColor: '#6FFFC8',
     spotifyUri: 'spotify:track:3r8RuvgbX9s7ammBn07D3W',
     songLabel: 'Seven jk',
+    photoUrl: '',
     displayOrder: 6,
   },
 ]
